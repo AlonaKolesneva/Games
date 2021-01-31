@@ -83,14 +83,14 @@ public class SnakeGame extends Game {
     private void gameOver() {
         stopTurnTimer();
         isGameStopped=true;
-        showMessageDialog(Color.BLACK, "You lose!", Color.BISQUE, 40);
+        showMessageDialog(Color.BLACK, "You lose! Push space to restart", Color.BISQUE, 40);
 
     }
 
     private void win(){
         stopTurnTimer();
         isGameStopped=true;
-        showMessageDialog(Color.BLACK, "You win!", Color.BISQUE, 40);
+        showMessageDialog(Color.BLACK, "You win! Push space to restart", Color.BISQUE, 40);
     }
 
 }
